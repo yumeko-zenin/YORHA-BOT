@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 try {
 let vn = './Menu.png'
 let pp = imagen4
-let img = await(await fetch('https://telegra.ph/.')).buffer()
+let img = await(await fetch('https://telegra.ph/file/fd4f255c79c743b87272b.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'ar'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -24,11 +24,11 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `مرحبا بك/ي معاك/ي 𝑺𝐴𝑅𝐴-𝐵𝛩𝑇
+let str = `「WELCOME TO BOT-YORHA💙🗝️」
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 قسم الجروبات 🪭
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
-𝑺𝐴𝑅𝐴-𝐵𝛩𝑇🪭
+  「〢𝒀𝑶𝑹𝑯𝑨-𝑩𝑶𝑻〢」
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 🪭|ضيف
 🪭|الاشباح
@@ -162,7 +162,7 @@ let str = `مرحبا بك/ي معاك/ي 𝑺𝐴𝑅𝐴-𝐵𝛩𝑇
 🎧 ناعم
 🎧 سنجاب
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
-𝑺𝐴𝑅𝐴-𝐵𝛩𝑇🪭
+ 「〢𝒀𝑶𝑹𝑯𝑨-𝑩𝑶𝑻💙🗝️〢」
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 
 `.trim()
@@ -179,7 +179,7 @@ let str = `مرحبا بك/ي معاك/ي 𝑺𝐴𝑅𝐴-𝐵𝛩𝑇
         }
 
         function _0x42ca() {
-            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩👑', '406070MLYaeB', 'https://www.atom.bio/harley_light', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
+            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', '⁨𝐘𝐨𝐫𝐮𝐢𝐜𝐡𝐢-𝐙𝐞𝐧𝐢𝐧', '406070MLYaeB', 'https://linktr.ee/Reven__zenin', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
             _0x42ca = function () {
                 return _0xe1e20e;
             };
@@ -237,4 +237,4 @@ function clockString(ms) {
     let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
     let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
-}
+   }
